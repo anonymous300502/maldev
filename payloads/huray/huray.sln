@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "huray", "huray.vdproj", "{089EB042-CAA8-4AF7-BD43-1FE8339AC5EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{089EB042-CAA8-4AF7-BD43-1FE8339AC5EC}.Debug|Default.ActiveCfg = Debug
+		{089EB042-CAA8-4AF7-BD43-1FE8339AC5EC}.Debug|Default.Build.0 = Debug
+		{089EB042-CAA8-4AF7-BD43-1FE8339AC5EC}.Release|Default.ActiveCfg = Release
+		{089EB042-CAA8-4AF7-BD43-1FE8339AC5EC}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40C79232-3975-4265-A95D-407E7F6374A3}
+	EndGlobalSection
+EndGlobal

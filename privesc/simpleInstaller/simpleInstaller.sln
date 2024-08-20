@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "simpleInstaller", "simpleInstaller.vdproj", "{B068BBF5-C911-4C3C-91DA-9465DE8BAC23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B068BBF5-C911-4C3C-91DA-9465DE8BAC23}.Debug|Default.ActiveCfg = Debug
+		{B068BBF5-C911-4C3C-91DA-9465DE8BAC23}.Debug|Default.Build.0 = Debug
+		{B068BBF5-C911-4C3C-91DA-9465DE8BAC23}.Release|Default.ActiveCfg = Release
+		{B068BBF5-C911-4C3C-91DA-9465DE8BAC23}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2311AD28-6182-47B4-B3BC-BA10E15F3813}
+	EndGlobalSection
+EndGlobal

